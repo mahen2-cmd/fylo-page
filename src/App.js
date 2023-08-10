@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import TopBar from './TopBar';
+import SecondSection from './SecondSection';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App" class="bg-hsl-218-28-13">
+        {/* <div class="bg-emerald-500 w-52 h-52 rounded-full shadow-2 grid place-content-center">
+            <div class="bg-teal-200 w-32 h-32 rounded-full grid place-content-center">
+                <div class="bg-red-500 w-16 h-16 rounded-full"></div>
+            </div>
+        </div> */}
+        <br />
+        <br />
+        <TopBar />
+        <br />
+        <br />
+        <SecondSection />
+      </div>
   );
 }
 
