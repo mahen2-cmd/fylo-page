@@ -14,6 +14,11 @@ module.exports = {
                 "hsl-217-28-15": "hsl(217, 28%, 15%)",
             },
         },
+        variants: {
+            extend: {
+                backgroundColor: ["hover"],
+            },
+        },
     },
     plugins: [],
 };
