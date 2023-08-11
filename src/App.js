@@ -1,22 +1,36 @@
 import './App.css';
 import TopBar from './TopBar';
-import SecondSection from './SecondSection';
-
+// import logo from "./png_images/logo.png";
+import intro from "./png_images/illustration-intro.png";
 
 function App() {
   return (
-      <div className="App" class="bg-hsl-218-28-13">
-        {/* <div class="bg-emerald-500 w-52 h-52 rounded-full shadow-2 grid place-content-center">
-            <div class="bg-teal-200 w-32 h-32 rounded-full grid place-content-center">
-                <div class="bg-red-500 w-16 h-16 rounded-full"></div>
-            </div>
-        </div> */}
-        <br />
-        <br />
-        <TopBar />
-        <br />
-        <br />
-        <SecondSection />
+      <div className="App">
+          <TopBar />
+
+          <div class="w-full h-auto bg-green-400 flex flex-col items-center text-center">
+              <div class="w-1/3 h-auto bg-orange-400 flex flex-col items-center justify-center">
+                  <img
+                      src={intro}
+                      class="w-64 h-64 object-cover"
+                      alt="Illustration Intro"
+                  />
+
+                  <div class="font-regular text-white text-2xl text-center font-bold">
+                      All your files in one secure location, accessible anywhere
+                  </div>
+
+                  <br />
+                  <div class="mx-7">
+
+                    <div class="font-regular text-white text-xs text-center">
+                        Fylo stores all your most important files in one secure
+                        location. Access them wherever you need, share and
+                        collaborate with friends, family and co-workers.
+                    </div>
+                  </div>
+              </div>
+          </div>
       </div>
   );
 }

@@ -37,11 +37,18 @@ function SecondSection() {
                     </div>
                 </div> */}
 
+                {/* <div class="flex items-center justify-center w-70 h-25 bg-blue-500 rounded-lg">
+                    <div class="font-regular text-white text-sm text-center font-bold">
+                        Get started
+                    </div>
+                </div> */}
+
                 <div class="flex items-center justify-center w-70 h-25 bg-blue-500 rounded-lg">
-                    <div class="font-regular text-white text-sm text-center">
+                    <div class="flex-shrink-0 font-regular text-white text-sm text-center font-bold">
                         Get started
                     </div>
                 </div>
+
 
                 
             </div>

@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.radial-blue {
-  background: radial-gradient(lightyellow, skyblue);
-}
 
 body {
   background-color: hsl(218, 28%, 13%);
   font-family: 'Raleway', sans-serif;
 
-  align-items: center;
+  /* align-items: center;
   flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
 
 }
 
